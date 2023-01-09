@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 5vh;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+}
+
+.profile-image {
+    height: 30px;
+    padding-right: 0.5em;
+  }
+  
+.username-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.username {
+    display:flex;
+    align-items: center;
+}
+
+.header-title {
+    cursor: pointer;
+}
+
+.explore-button {
+    color: #00a278 !important;
+}
+.button {
+    background-color: #00a278 !important;
+    color: white !important;
+}
+
+.button:hover {
+    background-color: #00845c !important;
+}
+@media screen and (min-width: 768px) {
+    .username-text {
+        display: block;
+    }
+}
